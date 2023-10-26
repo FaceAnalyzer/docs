@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FileUpload</title>
+    <style>
+        .progress-container {
+            width: 300px;
+            border: 1px solid #ccc;
+        }
+
+        .progress-bar {
+            width: 0;
+            height: 20px;
+            background-color: #4CAF50;
+            text-align: center;
+            line-height: 20px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>File Upload demo</h1>
+    <form>
+        <div>
+            <label for="size"> Chunk Size in KB</label>
+            <input type="number" name="size" id="size">
+            <br />
+            <label for="file">
+                File Upload
+            </label>
+            <input type="file" name="file" id="file">
+        </div>
+    </form>
+    <div>
+        <button id="btn">Upload</button>
+    </div>
+    <div class="progress-container">
+        <div class="progress-bar" id="progress-bar">0%</div>
+    </div>
+
+    <hr />
+    <br>
+    <br>
+    <form>
+        <h1>Manually trigger finish file upload</h1>
+        <div>
+
+            <label for="fileId">
+                FileId
+            </label>
+            <input type="number" name="fileId" id="fileId">
+        </div>
+    </form>
+    <div>
+        <button id="btn-finish">Finish</button>
+    </div>
+    <script src="files.js"></script>
+</body>
+
+</html>
