@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-01T02:04:38.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="t2ZwEhYMsn6e4aCrTW5I" version="22.0.8" type="github">
-  <diagram name="Page-1" id="5KgaLMppS0ZlpBXLG6Bj">
-    <mxGraphModel dx="1422" dy="860" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-11-01T02:05:17.138Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="-8mP8RjBrMmSWmMuKMtv" version="22.0.8" type="github">
+  <diagram name="Class diagram" id="5KgaLMppS0ZlpBXLG6Bj">
+    <mxGraphModel dx="2665" dy="1780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
