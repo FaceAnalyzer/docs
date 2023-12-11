@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2023-12-11T17:18:44.299Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iFpffvvSrsGOy4QvKyzj" version="22.1.7" type="device">
+  <diagram name="Page-1" id="K8CUaDvEfFFiL610VTxJ">
+    <mxGraphModel dx="1434" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JRpiw_gart-rRTU2SFPi-1" value="&amp;lt;&amp;lt;CI/CD server&amp;gt;&amp;gt;&lt;br&gt;GitHub Actions" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="JRpiw_gart-rRTU2SFPi-2" value="Build job" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="115" y="304" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JRpiw_gart-rRTU2SFPi-3" value="Deploy job" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="115" y="374" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JRpiw_gart-rRTU2SFPi-4" value="&amp;lt;&amp;lt;Docker registry&amp;gt;&amp;gt;&lt;br&gt;DockerHub" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="324" y="180" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JRpiw_gart-rRTU2SFPi-5" value="&amp;lt;&amp;lt;Kubernetes cluster&amp;gt;&amp;gt;&lt;br&gt;AKS / microk8s" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="560" y="248" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="JRpiw_gart-rRTU2SFPi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JRpiw_gart-rRTU2SFPi-6" target="JRpiw_gart-rRTU2SFPi-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JRpiw_gart-rRTU2SFPi-6" value="Docker image" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="355" y="237" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JRpiw_gart-rRTU2SFPi-7" value="Docker container" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="586" y="306" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JRpiw_gart-rRTU2SFPi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="JRpiw_gart-rRTU2SFPi-8" target="JRpiw_gart-rRTU2SFPi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JRpiw_gart-rRTU2SFPi-8" value="Kubernetes API" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="586" y="374" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JRpiw_gart-rRTU2SFPi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JRpiw_gart-rRTU2SFPi-3" target="JRpiw_gart-rRTU2SFPi-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JRpiw_gart-rRTU2SFPi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JRpiw_gart-rRTU2SFPi-2" target="JRpiw_gart-rRTU2SFPi-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="329" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
